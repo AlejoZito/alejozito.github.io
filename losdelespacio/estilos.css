@@ -1,0 +1,247 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    position: fixed;
+    margin-left: 850px;
+}
+
+.titulo-nav{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Foldit', cursive;
+    font-size: 35px;
+}
+.navegador{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(254, 213, 100);
+    margin-right: 20px;
+}
+header{
+    height: 800px;
+    background-image: url(imagenes/cielo.jpg);
+    display: flex;
+    align-items: center;
+}
+.texto-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-principal{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: calc(50px);
+}
+.intro{
+    padding: 30px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: rgb(200, 200, 200);
+}
+.img-portada{
+   width: 300px;
+   height: 400px;
+   padding:50px;
+}
+.img-artistas{
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+}
+.artistas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotos-artistas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fotos1{
+    width: 200px;
+}
+.cuadrados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.titulo-artistas{
+    font-size: calc(30px);
+    font-family: 'Orbitron', sans-serif;
+}
+.div-bigone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(255, 221, 96);
+}
+.div-emilia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(243, 122, 200);
+}.div-litkillah{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(106, 255, 96);
+}.div-fmk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(189, 96, 255);
+}.div-duki{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(214, 61, 61);
+}.div-tiagopzk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}.div-mariabecerra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(96, 154, 255);
+}.div-rusherking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 5px;
+    background-color: rgb(173, 173, 173);
+}
+.nombre-tiagopzk{
+    color: white;
+}
+.nombres{
+    color: black;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+.section-bigone{
+    background-color: rgb(255, 228, 129);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-emilia{
+    background-color: rgb(255, 129, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.section-litkillah{
+    background-color: rgb(129, 255, 142);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.section-fmk{
+    background-color: rgb(209, 129, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.section-duki{
+    background-color: rgb(251, 106, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.section-tiagopzk{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.section-mariabecerra{
+    background-color: rgb(129, 175, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.section-rusherking{
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    height: 200px;
+}
+.fotos2{
+    height: 500px;
+    width: 500px;
+}
+section{
+    height: 800px;
+}
+.titulo-tiagopzk{
+    font-size: calc(30px);
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+.section-historia{
+    background-image: url(imagenes/cielo.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:1100px 
+}
+.titulo-historia{
+    font-size: calc(30px);
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+}
+.texto-hisotria{
+    background-color: white;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    text-align: left;
+}
+footer{
+    background-color: white;
+    background-size: cover;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.imagen-stream{
+    background-color: white;
+    padding: 2px;
+}
